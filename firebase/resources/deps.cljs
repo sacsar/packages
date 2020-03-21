@@ -25,16 +25,14 @@
                 {:file     "cljsjs/development/firebase.inc.js"
                  :provides ["firebase" "cljsjs.firebase"]}]
 
- :externs ["cljsjs/common/firebase-analytics-externs.js",
-           "cljsjs/common/firebase-app-externs.js",
+ :externs ["cljsjs/common/firebase-app-externs.js",
+           "cljsjs/common/firebase-app-internal-externs.js",
            "cljsjs/common/firebase-auth-externs.js",
+           "cljsjs/common/firebase-client-auth-externs.js"
            "cljsjs/common/firebase-database-externs.js",
+           "cljsjs/common/firebase-database-internal-externs.js",
+           "cljsjs/common/firebase-error-externs.js",
+           "cljsjs/common/firebase-externs.js"
            "cljsjs/common/firebase-firestore-externs.js",
-           "cljsjs/common/firebase-functions-externs.js",
-           "cljsjs/common/firebase-installations-externs.js",
            "cljsjs/common/firebase-messaging-externs.js",
-           "cljsjs/common/firebase-performance-standalone-externs.js",
-           "cljsjs/common/firebase-performance-externs.js",
-           "cljsjs/common/firebase-remote-config-externs.js",
-           "cljsjs/common/firebase-storage-externs.js",
-           "cljsjs/common/firebase-externs.js"]}
+           "cljsjs/common/firebase-storage-externs.js"]}
